@@ -150,12 +150,15 @@ let swiper = new Swiper(".mySwiper", {
   breakpoints: {
     0: {
       slidesPerView: 1,
+      slidesPerGroup: 1,
     },
     520: {
       slidesPerView: 2,
+      slidesPerGroup: 2,
     },
     920: {
       slidesPerView: 3,
+      slidesPerGroup: 3,
     },
   },
 });
